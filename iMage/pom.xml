@@ -11,4 +11,12 @@
   <packaging>pom</packaging>
   <name>iMage</name>
   <description>		</description>
+  
+  <repositories>
+<repository>
+ <id>ipdNexus</id>
+ <url>http://bob.ipd.kit.edu/nexus/repository/maven-public-all/</url>
+ </repository>
+</repositories>
+  
 </project>
