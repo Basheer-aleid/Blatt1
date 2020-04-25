@@ -124,8 +124,8 @@ public class LayoutGalerie {
 	        // createCSS();
 	
 	        StringBuilder sb_file = new StringBuilder("");
-	        try
-	        {
+	        try{
+	        
 	          File[] files = layout.getFile().listFiles();
 	
 	          for (int i = 0; i < files.length; i++)
@@ -147,8 +147,8 @@ public class LayoutGalerie {
 	          fr = null;
 	
 	        }
-	        catch (Exception e2)
-	        {
+	        catch (Exception e2){
+	        
 	          e2.printStackTrace();
 	        }
 	
@@ -158,8 +158,8 @@ public class LayoutGalerie {
 	        File small = new File(directory, "small");
 	        File medium = new File(directory, "medium");
 	        File big = new File(directory, "big");
-	        try
-	        {
+	        try{
+
 	          small.mkdir();
 	          if (layout.isMediumCreate()) medium.mkdir();
 	          if (layout.isBigCreate()) big.mkdir();
