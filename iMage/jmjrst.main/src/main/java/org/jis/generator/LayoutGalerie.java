@@ -159,7 +159,7 @@ public class LayoutGalerie {
 	        File medium = new File(directory, "medium");
 	        File big = new File(directory, "big");
 	        try{
-
+ 
 	          small.mkdir();
 	          if (layout.isMediumCreate()) medium.mkdir();
 	          if (layout.isBigCreate()) big.mkdir();
